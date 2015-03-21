@@ -64,7 +64,7 @@ public class One extends Robot
 		setAllColors(Color.green);
 		//fire(1);
 		setAllColors(Color.BLUE);
-		dodge(e.getRobotHeadingDegrees());
+	//	dodge(e.getRobotHeadingDegrees());
 	}
 	void headTo(double angle){
 		double currentAngle = getHeading();
