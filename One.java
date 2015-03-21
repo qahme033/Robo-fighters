@@ -60,7 +60,12 @@ public class One extends Robot
 	 */
 	public void onScannedRobot(ScannedRobotEvent e) {
 		turnToBot();
+		fire(100);
+		if(e.getRobotDistance() > 200){
 		ahead(100);
+		}
+		else
+		fire(500);
 		setAllColors(Color.green);
 		//fire(1);
 		setAllColors(Color.BLUE);
